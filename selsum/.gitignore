@@ -1,0 +1,12 @@
+.idea/
+*.pyc
+smoke_tests/
+_to_refactor
+/docs
+.DS_Store
+build/
+dist/
+*.egg-info
+sandbox/
+saved/
+checkpoints/

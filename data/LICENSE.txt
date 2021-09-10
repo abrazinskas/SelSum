@@ -1,0 +1,19 @@
+=======
+LICENSE
+=======
+
+This Dataset Usage Agreement ("Agreement") is a legal agreement for the Dataset made available to the individual or entity ("User") exercising rights under this Agreement. "Dataset" includes all text, data, information, source code, and any related materials, documentation, files, media, updates or revisions.
+The Dataset can be used for non-commercial and educational purposes only, and is made available free of charge without extending any license or other intellectual property rights.
+By downloading or using the dataset (or its parts), the User acknowledges that they agree to the terms in this Agreement, and represent and warrant that they have authority to do so on behalf of any entity exercising rights under this Agreement.
+The User accepts and agrees to be bound by the terms and conditions of this Agreement.
+If the User does not agree to this Agreement, they may not download or use the Dataset.
+
+
+THE DATASET IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+HIBITED BY LAW, IN NO EVENT SHALL VERDICT BE LIABLE FOR ANY LOSS, DAMAGE OR INJURY, DIRECT AND INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES, HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER FOR BREACH OF CONTRACT, TORT (INCLUDING NEGLIGENCE) OR OTHERWISE, ARISING OUT OF THIS AGREEMENT, INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. THESE LIMITATIONS SHALL APPLY NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.
