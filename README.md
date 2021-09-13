@@ -8,16 +8,16 @@ This repository contains the codebase and the dataset for the [corresponding EMN
 <img src="img/model.png" width="500">
 </p>
 
-**AmaSum** is the largest abstractive opinion summarization dataset, consisting of more than **33,000** human-written summaries for Amazon products. Each summary is paired, on average, with more than **320** customer reviews. Summaries consist of **verdicts**, **pros**, and **cons**, see the sample below.
+**AmaSum** is the largest abstractive opinion summarization dataset, consisting of more than **33,000** human-written summaries for Amazon products. Each summary is paired, on average, with more than **320** customer reviews. Summaries consist of **verdicts**, **pros**, and **cons**, see the example below.
 
 **Verdict:**
 *The Olympus Evolt E-500 is a compact, easy-to-use digital SLR camera with a broad feature set for its class and very nice photo quality overall.*
  
 **Pros:** 
-
 * *Compact design*
 * *Strong autofocus performance even in low-light situations*
-* *Intuitive and easy-to-navigate menu system . wide range of automated and manual features to appeal to both serious hobbyists and curious SLR newcomers*
+* *Intuitive and easy-to-navigate menu system* 
+* *Wide range of automated and manual features to appeal to both serious hobbyists and curious SLR newcomers*
 
 **Cons:**
 * *Unreliable automatic white balance in some conditions*
