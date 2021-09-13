@@ -2,7 +2,7 @@
 
 This repository contains the codebase and the dataset for the [corresponding EMNLP 2021 paper](https://arxiv.org/abs/2109.04325). Please star the repository and cite the paper if you find it useful.
 
-**SelSum** is a probabilistic (variational) summarizer that selects informative reviews from large collections and subsequently summarizes them.
+**SelSum** is a probabilistic (latent) summarizer that selects informative reviews from large collections and subsequently summarizes them as shown in the diagram. 
 
 <p align="center">
 <img src="img/model.png" width="500">
