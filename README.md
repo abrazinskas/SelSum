@@ -2,11 +2,13 @@
 
 This repository contains the codebase and the dataset for the [corresponding EMNLP 2021 paper](https://arxiv.org/abs/2109.04325).
 
-**SelSum** is a probabilistic (variational) summarizer that selects informative reviews from large collections, based on 'cheap' features, and subsequently summarizes them. The system generates abstractive summaries in the form of **verdicts**, **pros**, and **cons**, see the example below.
+**SelSum** is a probabilistic (latent) model that selects informative reviews from large collections and subsequently summarizes them as shown in the diagram below. 
 
 <p align="center">
 <img src="img/model.png" width="500">
 </p>
+
+**AmaSum** is the largest abstractive opinion summarization dataset, consisting of more than **33,000** human-written summaries for Amazon products. Each summary is paired, on average, with more than **320** customer reviews. Summaries consist of **verdicts**, **pros**, and **cons**, see the example below.
 
 ### Example Summary
 
@@ -15,19 +17,19 @@ This repository contains the codebase and the dataset for the [corresponding EMN
 </p>
 
 **Verdict:**
+*The Olympus Evolt E-500 is a compact, easy-to-use digital SLR camera with a broad feature set for its class and very nice photo quality overall.*
  
- *Phytospecific Index 1 is a gentle yet effective hair relaxer that's ideal for those with fine, curly hair.*
-
 **Pros:** 
-* *A gentle formula that's suitable for all types of hair*
-* *It's easy to apply and doesn't burn your scalp*
+* *Compact design*
+* *Strong autofocus performance even in low-light situations*
+* *Intuitive and easy-to-navigate menu system* 
+* *Wide range of automated and manual features to appeal to both serious hobbyists and curious SLR newcomers*
 
 **Cons:**
-* *It's expensive, but you get a lot of product for the price.*
-* *Some users have said that the product caused their hair to shrink.*
+* *Unreliable automatic white balance in some conditions*
+* *Slow start-up time when dust reduction is enabled*
+* *Compatible Zuiko lenses don't indicate focal distance*
 
-
-**AmaSum** is the largest abstractive opinion summarization dataset, consisting of more than **33,000** summaries for Amazon products, written by professional product reviewers. Each summary is paired, on average, with more than **320** customer reviews.
 
 ## 1. Setting up
 
