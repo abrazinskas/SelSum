@@ -2,11 +2,16 @@
 
 This repository contains the codebase and the dataset for the [corresponding EMNLP 2021 paper](https://arxiv.org/abs/2109.04325).
 
-**SelSum** is a probabilistic (variational) summarizer that selects informative reviews from large collections, based on 'cheap' features, and subsequently summarizes them. The system generates abstractive summaries in the form of **verdicts**, **pros**, **cons**, see the example below.
-
+**SelSum** is a probabilistic (variational) summarizer that selects informative reviews from large collections, based on 'cheap' features, and subsequently summarizes them. The system generates abstractive summaries in the form of **verdicts**, **pros**, and **cons**, see the example below.
 
 <p align="center">
 <img src="img/model.png" width="500">
+</p>
+
+### Example Summary
+
+<p align="center">
+<img src="img/camera.jpeg" width="300">
 </p>
 
 **Verdict:**
