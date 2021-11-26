@@ -24,14 +24,17 @@ Each product has **verdict**, **pros**, and **cons** as the summary; see the exa
 
 ## Dataset formats
 
-The dataset is available in its raw format (JSON) and pre-processed for FAIRSEQ models. JSON raw files contain not only reviews and summaries but also additional meta information, which can be useful for summarization. FAIRSEQ formatted files can be used to train FAIRSEQ models if they are binarized beforehand. For binarization instructions, please refer to the [preprocessing folder](../preprocessing).
-Please **read the license** before downloading the dataset.
+The dataset is available in its raw format (JSON) and pre-processed for FAIRSEQ models. In the latter case, sources (input reviews) and targets (summaries) are in separate files. Reviews in the source files are separated by a special symbol. JSON raw files contain not only reviews and summaries but also additional meta information, which can be useful for summarization. FAIRSEQ formatted files can be used to train FAIRSEQ models if they are binarized beforehand. For binarization instructions, please refer to the [preprocessing folder](../preprocessing).
 
 
-1. [JSON raw 1](https://abrazinskas.s3.eu-west-1.amazonaws.com/downloads/projects/selsum/data/raw_min_10_revs.zip): minimum 10 reviews in each ASIN file. Min_len=10, max_len=120;
-2. [JSON raw 2](https://abrazinskas.s3.eu-west-1.amazonaws.com/downloads/projects/selsum/data/raw_min_10_max_100_revs.zip): minimum 10 reviews in each ASIN file. Min_len=10, max_len=120, max_revs=100;
-3. [FAIRSEQ formatted](https://abrazinskas.s3.eu-west-1.amazonaws.com/downloads/projects/selsum/data/form_min_10_max_100_revs.zip): minimum 10 reviews in each ASIN file. Min_len=10, max_len=120, max_revs=100.
+| Format | Size | Min revs | Avg revs | Max revs | Link |
+| :---:| :---: | :---:| :---: | :---: | :---: |
+| JSON  | 374.8 MB | 10  | 76 | 100 | [Download](https://abrazinskas.s3.eu-west-1.amazonaws.com/downloads/projects/selsum/data/raw_min_10_max_100_revs.zip) |
+| JSON | 1.1 GB | 10 | 326 | 2361 |[Download](https://abrazinskas.s3.eu-west-1.amazonaws.com/downloads/projects/selsum/data/raw_min_10_revs.zip) |
+| FAIRSEQ | 323.8 MB | 10 | 76 | 100 | [Download](https://abrazinskas.s3.eu-west-1.amazonaws.com/downloads/projects/selsum/data/form_min_10_max_100_revs.zip) |
+| FAIRSEQ | 807.1 MB | 10 | 326 | 2361 |[Download](https://abrazinskas.s3.eu-west-1.amazonaws.com/downloads/projects/selsum/data/form_min_10_revs.zip) |
 
+Reviews were also filtered, with **10** and **120** minimum and maximum lengths, respectively.
 
 ## License
 
